@@ -228,3 +228,41 @@ section p {
 /*-----------------------------------------------*/
 /* ---------------------------------------------- */
 }
+
+@media only screen and (max-width: 600px){
+    .cuerpo h1 {
+        border-top: 3px solid black;
+    }
+
+    .img {
+        float: none;
+        margin: 0;
+        width: 50%;
+    }
+
+    .img_cont {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* ESTILOS MENU */
+    .barra:hover a{ 
+        font-size:20px ;
+        color:white;
+        /*Se usa el display block para que el enlace respete el margin*/
+        display: block;
+        padding:20px;
+    }
+
+    .barra:hover ul{
+        display: block;
+        text-align: center;
+    }
+
+    .barra:hover a:hover{ 
+        font-size: 25px;
+        padding: 15px; 
+        background: rgba(23, 78, 112, 0.98);
+        border-bottom: none;  
+    }
+}
