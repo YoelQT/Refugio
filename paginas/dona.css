@@ -282,7 +282,7 @@ input[type=number] {
 
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 600px){
 
     .contenedor {
         margin: 0 5%;
@@ -290,6 +290,27 @@ input[type=number] {
 
     input[type=number] {
         width: 68.8%;
+    }
+
+    /* ESTILOS MENU */
+    .barra:hover a{ 
+        font-size:20px ;
+        color:white;
+        /*Se usa el display block para que el enlace respete el margin*/
+        display: block;
+        padding:20px;
+    }
+
+    .barra:hover ul{
+        display: block;
+        text-align: center;
+    }
+
+    .barra:hover a:hover{ 
+        font-size: 25px;
+        padding: 15px; 
+        background: rgba(23, 78, 112, 0.98);
+        border-bottom: none;  
     }
 
 }
