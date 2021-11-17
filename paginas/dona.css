@@ -313,8 +313,4 @@ input[type=number] {
         border-bottom: none;  
     }
 
-    .barra:hover{
-        /*Tamaño cuando el cursor señale la barra*/
-        height: 92%;
-    }
 }
