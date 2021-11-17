@@ -269,4 +269,9 @@ h1 {
         background: rgba(23, 78, 112, 0.98);
         border-bottom: none;  
     }
+    
+    .barra:hover{
+        /*Tamaño cuando el cursor señale la barra*/
+        height: 92%;
+    }
 }
